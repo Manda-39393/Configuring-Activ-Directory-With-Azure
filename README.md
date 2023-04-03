@@ -1,183 +1,107 @@
-<p align="center">
-<img src="https://www.greetly.com/hubfs/azure-active-directory-visitor-management-system-integration.png#keepProtocol" alt="osTicket logo"/>
+# Wireshark-Firewall
+<p>
+<img src="https://i.imgur.com/FfOEYxy.png" height="80%" width="80%"/>
 </p>
+<p>
 
-<h1>Active Directory Deployed in the Cloud (Azure)</h1>
-Brief outline of creating and configuring an Active Directory using Azure.<br />
+<h1>Wireshark  - Prerequisites and Installation</h1>
+Brief tutorial on how to install and observe firewall.<br />
 
 
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Active Directory Domain Services
-- PowerShell
+- Wireshark
 
 <h2>Operating Systems Used </h2>
 
 - Windows 10</b> (21H2)
-- Windows Server 2022 Datacenter Azure Edition
+- Ubuntu 
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>List of Prerequisites</h2>
 
-- Install Active Directory
-- Create an Admin & User Account
-- Join a client to the Domain
-- Run Powershell script to create users
+- Created Resouce Group
+- Windows/Ubuntu Virtual Machines
 
-<h2>Deployment and Configuration Steps</h2>
+<h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/X9b3LDT.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/WYsfRU5.png" height="80%" width="80%"/>
 </p>
 <p>
+1. Use remote Desktop to connect to Windows 10 Virtual Machine (take a moment to check the topology, via Azure)
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/yGc1e9W.png" height="80%" width="80%"/>
+</p>
+<p>
+2. Login using created username and password.
+3. Download Wireshark via, Wireshark.com.
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/asdy3fF.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/vRJVQ5h.png" width="80%"/>
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/Un61fnh.png" height="80%" width="80%"/>
-</p>
-<p>
-
+4. Download and install Wireshark.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/g4niPdp.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/1v6bEPj.png" height="80%" width="80%"/>
 </p>
 <p>
-
-</p>
-<br />
+6. Observe ICMP Traffic.
 
 <p>
-<img src="https://i.imgur.com/LffmLTy.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/Ag3CujO.png"80%" width="80%"/>
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/bhGAvaw.png" height="80%" width="80%"/>
-</p>
-<p>
-
+7. Ping private address of Ubuntu VM and ping address in Windows /
+8. In Wireshark put IMCP in the search area, observe traffic, and prepare to block chosen traffic.
 
 <p>
-<img src="https://i.imgur.com/WVfWbdc.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/YK7v4j9.png" height="80%" width="80%"/>
 </p>
 <p>
+10. Add security rule for IMCP traffic; deny, "anything."
 
 <p>
-  
-<img src="https://i.imgur.com/5FdZUS9.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/Dx6QmE0.png" height="80%" width="80%"/>
 </p>
 <p>
-
-<p>
-<img src="https://i.imgur.com/XXkO0wA.png" height="80%" width="80%"/>
-</p>
-<p>
-
+11. Observe the traffic, and what has been blocked due to the new rule. (Switch to DHCP traffic not, DNS)
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/NVMbBvq.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/mmolGPg.png" height="80%" width="80%"/>
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/qiK1qU9.png" height="80%" width="80%"/>
-</p>
-<p>
-
+12. Observe DHCP traffic, use ipconfig to find the ethernet information.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/VuSPfiS.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/HTnmtgc.png" height="80%" width="80%"/>
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/9iwYlTZ.png" height="80%" width="80%"/>
-</p>
-<p>
-
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/X6RtgkX.png" height="80%" width="80%"/>
+<img src="https://i.imgur.com/yxr1j5W.png" height="80%" width="80%"/>
 </p>
 <p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/xfZYCYs.png" height="80%" width="80%"/>
-</p>
-<p>
-
+13. Observe DNS traffic.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/skvq8Wx.png" height="80%" width="80%"/>
-</p>
-<p>
 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/SXuCWqt.png" height="80%" width="80%"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/UTDgf3B.png" height="80%" width="80%"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/dpb6fU9.png" height="80%" width="80%"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/Uq9OcWr.png" height="80%" width="80%"/>
-</p>
-<p>
-
-</p>
-<br />
-
-<p>
