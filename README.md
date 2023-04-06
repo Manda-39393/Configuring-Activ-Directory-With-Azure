@@ -55,26 +55,22 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/IiWeC4q.png" height="80%" width="80%"/>
 </p>
 <p>
-6. Observe ICMP Traffic.
 
 <p>
 <img src="https://i.imgur.com/LnvE2LN.png"80%" width="80%"/>
 </p>
 <p>
-7. Ping private address of Ubuntu VM and ping address in Windows /
-8. In Wireshark put IMCP in the search area, observe traffic, and prepare to block chosen traffic.
 
 <p>
 <img src="https://i.imgur.com/3RzWlbw.png" height="80%" width="80%"/>
 </p>
 <p>
-10. Add security rule for IMCP traffic; deny, "anything."
 
 <p>
 <img src="https://i.imgur.com/8jkkZct.png" height="80%" width="80%"/>
 </p>
 <p>
-11. Observe the traffic, and what has been blocked due to the new rule. (Switch to DHCP traffic not, DNS)
+
 </p>
 <br />
 
@@ -82,7 +78,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/AMjJjsr.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe DHCP traffic, use ipconfig to find the ethernet information.
+
 </p>
 <br />
 
@@ -90,7 +86,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/SFqdjbU.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 
@@ -98,7 +94,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/d3TGm5M.png" height="80%" width="80%"/>
 </p>
 <p>
-13. Observe DNS traffic.
+
 </p>
 <br />
 
@@ -106,7 +102,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/TwzVH9T.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 <p>
@@ -115,7 +111,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/lRlb0Xw.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 
@@ -123,7 +119,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/9In9YPH.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 
@@ -131,7 +127,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/kIfR5Li.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 
@@ -139,7 +135,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/3sc78AD.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 
@@ -147,7 +143,7 @@ Brief tutorial on how to install and use Active Directory.<br />
 <img src="https://i.imgur.com/sDIo6oz.png" height="80%" width="80%"/>
 </p>
 <p>
-12. Observe SSH traffic, ping the private address of Ubuntu VM.
+
 </p>
 <br />
 
