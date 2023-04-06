@@ -103,4 +103,74 @@ Brief tutorial on how to install and use Active Directory.<br />
 <br />
 
 <p>
+<img src="https://i.imgur.com/TwzVH9T.png" height="80%" width="80%"/>
+</p>
+<p>
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
+</p>
+<br />
+<p>
 
+<p>
+<img src="https://i.imgur.com/lRlb0Xw.png" height="80%" width="80%"/>
+</p>
+<p>
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/9In9YPH.png" height="80%" width="80%"/>
+</p>
+<p>
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/kIfR5Li.png" height="80%" width="80%"/>
+</p>
+<p>
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/3sc78AD.png" height="80%" width="80%"/>
+</p>
+<p>
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sDIo6oz.png" height="80%" width="80%"/>
+</p>
+<p>
+12. Observe SSH traffic, ping the private address of Ubuntu VM.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/smSW3tg.png" height="80%" width="80%"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4kvvcd0.png" height="80%" width="80%"/>
+</p>
+<p>
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4kvvcd0.png" height="80%" width="80%"/>
+</p>
+<p>
+
+</p>
+<br />
